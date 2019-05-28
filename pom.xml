@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>nl.ordina.todolist</groupId>
-    <artifactId>to-do-list</artifactId>
+    <groupId>nl.ordina.takenlijst</groupId>
+    <artifactId>takenlijst</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -22,7 +22,7 @@
                 <archive>
                     <manifest>
                         <!-- Jar file entry point -->
-                        <mainClass>nl.ordina.todolist.App</mainClass>
+                        <mainClass>nl.ordina.takenlijst.App</mainClass>
                     </manifest>
                 </archive>
             </configuration>
