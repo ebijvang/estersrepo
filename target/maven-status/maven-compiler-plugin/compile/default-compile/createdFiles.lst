@@ -1,0 +1,4 @@
+nl\ordina\todolist\App.class
+nl\ordina\todolist\core\usecase\CreateTaakBoundary.class
+nl\ordina\todolist\core\domain\Taak.class
+nl\ordina\todolist\core\usecase\CreateTaak.class
