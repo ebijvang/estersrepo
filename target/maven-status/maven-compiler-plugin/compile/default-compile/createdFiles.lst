@@ -1,4 +1,7 @@
+nl\ordina\takenlijst\core\domain\TaakGateway.class
 nl\ordina\takenlijst\core\usecase\MaakTaakInterface.class
 nl\ordina\takenlijst\core\domain\Taak.class
+nl\ordina\takenlijst\persistency\RealTaakGateway.class
+nl\ordina\takenlijst\delivery\Presenter.class
 nl\ordina\takenlijst\App.class
 nl\ordina\takenlijst\core\usecase\MaakTaak.class

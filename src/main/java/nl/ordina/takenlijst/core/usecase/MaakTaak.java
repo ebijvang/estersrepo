@@ -1,30 +1,34 @@
 package nl.ordina.takenlijst.core.usecase;
 
 import nl.ordina.takenlijst.core.domain.Taak;
+import nl.ordina.takenlijst.core.domain.TaakGateway;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
 
 public class MaakTaak implements MaakTaakInterface {
+
+    private TaakGateway taakGateway;
+
+    public MaakTaak(TaakGateway taakGateway) {
+        this.taakGateway = taakGateway;
+    }
+
     @Override
-    public Taak voerUit(String omschrijving, String prioriteit, String uitersteDatumAfhandelen) {
-        System.out.println(omschrijving);
-        System.out.println(prioriteit);
-        System.out.println(uitersteDatumAfhandelen);
+    public Integer voerUit(String omschrijving, String prioriteit, String uitersteDatumAfhandelen) {
         Date datum = null;
 
         try {
-            SimpleDateFormat formatter =new SimpleDateFormat("dd-MM-yyyy");
+            SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
             formatter.setLenient(false);
             datum = formatter.parse(uitersteDatumAfhandelen);
-            Taak taak = new Taak(omschrijving,prioriteit,datum);
-            return taak;
+            Taak taak = new Taak(omschrijving, prioriteit, datum);
+            taakGateway.slaTaakOp(taak);
+            return 0;
 
-        } catch(ParseException e){
-            System.out.println("De datum heeft een verkeerd formaat");
-            return null;
+        } catch (ParseException e) {
+            return 200;
         }
     }
 
