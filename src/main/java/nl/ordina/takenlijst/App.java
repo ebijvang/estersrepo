@@ -13,6 +13,5 @@ public class App {
         MaakTaakInterface maakTaak = new MaakTaak(taakGateway);
         Presenter presenter = new Presenter(maakTaak);
         presenter.start();
-
     }
 }

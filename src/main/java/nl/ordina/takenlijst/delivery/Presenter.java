@@ -20,7 +20,7 @@ public class Presenter {
                 case "exit":
                     System.exit(0);
                 case "maak":
-                    voorMaakTaakUit(console);
+                    voerMaakTaakUit(console);
                     break;
                 case "toonAlles":
                     System.out.println(command);
@@ -32,7 +32,7 @@ public class Presenter {
         }
     }
 
-    private void voorMaakTaakUit(final Console console) {
+    private void voerMaakTaakUit(final Console console) {
         System.out.println("******Nieuwe taak******");
         String omschrijving =  console.readLine("Omschrijving              : ");
         String prioriteit =    console.readLine("Prioriteit                : ");

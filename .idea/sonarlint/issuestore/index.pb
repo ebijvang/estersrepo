@@ -9,3 +9,9 @@ m
 =src/main/java/nl/ordina/takenlijst/core/usecase/MaakTaak.java,5\3\537765a4cf037ea2ff34f0b7ae6ba93fd938733c
 [
 +src/main/java/nl/ordina/takenlijst/App.java,f\f\ff1778ca8077f01915b0088d8a9c685077f9e312
+o
+?src/main/java/nl/ordina/takenlijst/core/domain/TaakGateway.java,5\f\5f6b5202707b5efd4a38194e69e6baaeaaa86842
+s
+Csrc/main/java/nl/ordina/takenlijst/persistency/RealTaakGateway.java,d\2\d2415f4d82eda13d39c5f6180277d5530a1a8f22
+j
+:src/main/java/nl/ordina/takenlijst/delivery/Presenter.java,c\8\c846c684a3a555b159046d662b22fb55ed7e4849
