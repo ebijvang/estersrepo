@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.18">
+<file name="D:\workspaces\estersrepo\core\src\main\java\nl\ordina\takenlijst\domain\Taak.java">
+</file>
+<file name="D:\workspaces\estersrepo\core\src\main\java\nl\ordina\takenlijst\domain\TaakGateway.java">
+</file>
+<file name="D:\workspaces\estersrepo\core\src\main\java\nl\ordina\takenlijst\usecase\MaakTaak.java">
+</file>
+<file name="D:\workspaces\estersrepo\core\src\main\java\nl\ordina\takenlijst\usecase\MaakTaakInterface.java">
+</file>
+</checkstyle>

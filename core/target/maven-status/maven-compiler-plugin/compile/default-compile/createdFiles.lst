@@ -1,0 +1,4 @@
+nl\ordina\takenlijst\usecase\MaakTaakInterface.class
+nl\ordina\takenlijst\domain\TaakGateway.class
+nl\ordina\takenlijst\usecase\MaakTaak.class
+nl\ordina\takenlijst\domain\Taak.class

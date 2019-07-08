@@ -15,3 +15,5 @@ s
 Csrc/main/java/nl/ordina/takenlijst/persistency/RealTaakGateway.java,d\2\d2415f4d82eda13d39c5f6180277d5530a1a8f22
 j
 :src/main/java/nl/ordina/takenlijst/delivery/Presenter.java,c\8\c846c684a3a555b159046d662b22fb55ed7e4849
+>
+checkstyle.xml,0\d\0d7fcbf2189c1d04b7686bca0ee60fdded230e2d

@@ -1,3 +1,4 @@
 
+vsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Êü‰şÿÿÿÿ8ª¥±ãº-
 [
-squid:S106%"9Replace this use of System.out or System.err by a logger.(ÔóÌïúÿÿÿÿ8¢öİê¯-
+squid:S106("9Replace this use of System.out or System.err by a logger.(ÔóÌïúÿÿÿÿ8²ò¾ôº-
